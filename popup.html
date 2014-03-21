@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script src="jquery-1.10.2.min.js"> </script>
+	<script src="popup.js"> </script>
+	
+	<style>
+		.top {
+			font-size:20px;
+			margin:1px;
+			margin-bottom:10px;
+			padding:5px;
+			padding-bottom:2px;
+			border-radius: 8px;
+			border-width: 1px;
+			border-style: solid;
+			background-color: #cccccc;
+		}
+		p {
+			text-align:center;
+			margin:2px;
+		}
+		span {
+			float:right;
+		}
+	</style>
+</head>
+
+<body>
+<div class="top">
+	Gravity
+	<input id="toggle" type="checkbox" name="toggle" style="float:right" checked>
+</div> 
+
+Min <span> Max </span>
+<input id="G" type="range" name="G" min="0" max = "100">
+<p> 0 </p>
+</body>
+</html>
